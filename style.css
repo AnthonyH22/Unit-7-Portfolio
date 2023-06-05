@@ -60,7 +60,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .home-content {
   max-width: 600px;
-  transform: translate(-32px, -50px);
+  transform: translate(-32px, 0px);
 }
 
 .home-content h1 {
