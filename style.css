@@ -126,7 +126,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .about-content {
   max-width: 600px;
-  transform: translate(-32px, 150px);
+  transform: translate(-32px, 180px);
 }
 
 .about-content h1 {
@@ -149,6 +149,7 @@ body::-webkit-scrollbar-thumb:hover {
   height: 400px;
   background-color: black;
   border-radius: 50%;
+  transform: translateX(100px);
   overflow: hidden;
 }
 
@@ -260,7 +261,7 @@ body::-webkit-scrollbar-thumb:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: translateY(700px);
+  transform: translateY(750px);
 }
 
 .portfolio-content {
@@ -477,6 +478,7 @@ iframe {
 .src-code, .src-code2, .src-code3 {
   position: relative;
   border: 3px solid #000000;
+  border-radius: 20px;
   display: flex;
   cursor: pointer;
   align-items: center;
@@ -486,6 +488,7 @@ iframe {
 }
 
 .src-code img, .src-code2 img, .src-code3 img {
+  transform: translateX(3px);
   width: 50px;
   height: 50px;
 }
